@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+    width: fit-content;
+    padding: 50px;
+    background-color: lightsteelblue;
+}
+
+#titel {
+    width: 100%;
+    text-align: center;
+}
+
+#eingabe {
+    display: grid;
+    grid-gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input,
+select {
+    text-align: center;
+}
